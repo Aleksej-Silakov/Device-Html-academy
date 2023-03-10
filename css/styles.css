@@ -448,6 +448,9 @@ body {
   line-height: 18px;
   padding: 33px 0 27px 60px;
 }
+.nav-menu-item:focus-within > .popover-catalog {
+  display: block;
+}
 
 .popover-list-catalog {
   list-style-type: none;
